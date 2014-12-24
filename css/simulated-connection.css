@@ -1,0 +1,481 @@
+@import "../lib/font_awesome/css/font-awesome.min.css";
+.mydex-password-strength {
+  margin-bottom: 15px;
+}
+.mydex-password-strength .password-strength-text {
+  display: inline;
+  margin-right: 0.5em;
+}
+.mydex-password-strength .password-strength-title {
+  display: inline-block;
+  font-weight: 600;
+}
+.mydex-password-strength .password-strength-title .weak {
+  color: #ff0000;
+  font-weight: 400;
+}
+.mydex-password-strength .password-strength-title .fair {
+  color: #ff7700;
+}
+.mydex-password-strength .password-strength-title .good {
+  color: #2dad2d;
+}
+.mydex-password-strength .password-strength-title .strong {
+  color: #008000;
+  font-weight: 800;
+}
+.mydex-password-strength .password-indicator {
+  background-color: #CCCCCC;
+  clear: both;
+  height: 0.6em;
+  width: 100%;
+}
+.mydex-password-strength .password-indicator .indicator {
+  background-color: #104163;
+  height: 100%;
+  width: 0;/* Initialise at 0 */
+}
+.mydex-password-confirm .valid {
+  color: #104163;
+  font-weight: 600;
+}
+.mydex-private-key-create .valid {
+  color: #104163;
+  font-weight: 600;
+}
+.mydex-private-key-confirm .valid {
+  color: #104163;
+  font-weight: 600;
+}
+* {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  outline: 0 !important;
+}
+*:hover,
+*:focus,
+*:active,
+*:visited {
+  outline: 0 !important;
+}
+body {
+  background-color: #f7f7f7;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body.account-statement {
+  color: #104163;
+}
+body.account-statement strong {
+  color: #000;
+}
+body.account-statement h3 {
+  color: #7d7d7d;
+}
+.form-control:focus {
+  border-color: #104163;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(45, 78, 103, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(45, 78, 103, 0.6);
+}
+::-webkit-input-placeholder,
+:-moz-placeholder,
+::-moz-placeholder,
+:-ms-input-placeholder {
+  color: #104163;
+  font-size: 10px;
+  line-height: 15px;
+}
+.btn {
+  font-size: 16px;
+  padding: 18px;
+}
+.fa-angle-double-right {
+  font-size: 22px;
+}
+.hr-border-bottom {
+  border-bottom: 1px solid #cccccc;
+}
+.register-for-mydexid {
+  padding-bottom: 15px;
+}
+.ui-state-default .ui-icon {
+  background-image: url("img/ui-icons_ffffff_256x240.png");
+}
+.navbar-default {
+  background-color: #104163;
+  border: 0;
+  border-radius: 0;
+}
+.navbar-default .top {
+  font-size: 12px;
+  margin-top: 10px;
+}
+.navbar-default .top .navbar-toggle {
+  margin-top: 0;
+}
+.navbar-default .top .navbar-toggle:hover,
+.navbar-default .top .navbar-toggle:focus {
+  background-color: #faf7eb;
+}
+.navbar-default .top .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-default .top .navbar-nav a.active {
+  background-color: #faf7eb;
+  border-radius: 15px 15px 0 0;
+  color: #104163;
+  width: 150px;
+  text-align: center;
+}
+.navbar-default .top .navbar-right a {
+  padding-top: 10px;
+}
+.navbar-default .top .navbar-form .form-control {
+  height: 25px;
+  border-radius: 50px;
+}
+.navbar-default .top .btn {
+  background: transparent;
+  height: 25px;
+  padding: 0;
+  margin-left: -30px;
+  border-radius: 150px;
+}
+.navbar-default .brand {
+  width: 100%;
+  background-color: #faf7eb;
+}
+.navbar-default .brand .navbar-toggle {
+  display: none;
+}
+.navbar-default .brand a.navbar-brand {
+  height: auto;
+}
+.navbar-default .brand .navbar-brand img {
+  padding: 20px;
+}
+.navbar-default .brand .navbar-right {
+  padding: 38px 13px 33px 33px;
+}
+.navbar-default .brand .navbar-right a {
+  font-size: 23px;
+  color: #104163;
+}
+@media (max-width: 768px) {
+  .navbar-default .brand .navbar-right {
+    margin: 0;
+    padding: 0;
+  }
+  .navbar-default .brand .nav > li {
+    display: inline-block;
+  }
+}
+.main-content {
+  background-color: #fff;
+  border-radius: 15px;
+  margin-bottom: 100px;
+  padding-bottom: 30px;
+}
+.main-content .page-header {
+  margin-top: 0;
+  border: 0;
+}
+.main-content .page-header .row:first-child {
+  border-radius: 15px 15px 0 0;
+  background-color: #104163;
+  color: #fff;
+}
+.main-content .page-header .row:first-child h1 {
+  margin: 20px;
+  padding: 10px;
+}
+.main-content .terms-link a {
+  color: #104163;
+  margin-left: 22px;
+  text-decoration: underline;
+}
+.main-content .about-text p.summary {
+  margin-bottom: 60px;
+}
+.main-content .about-text .mydex-online {
+  background-color: #f7f7f7;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+.main-content .about-text .media .media-body {
+  margin: 0 0 0 10px;
+}
+.main-content .mydex-secure-list {
+  margin-left: 20px;
+}
+.main-content .mydex-secure-list li {
+  position: relative;
+  margin: 10px 0 10px 0;
+}
+.main-content .mydex-secure-list li.first {
+  margin-top: 0;
+}
+.main-content .mydex-secure-list li.last {
+  margin-bottom: 0;
+}
+.main-content .mydex-secure-list li i {
+  color: #b5c96b;
+  font-size: 12px;
+  left: -20px;
+  position: absolute;
+  top: 5px;
+}
+.main-content .account-summary {
+  border: 1px solid #cccccc;
+  border-radius: 20px;
+  padding: 0 15px 20px 15px;
+}
+.main-content .account-summary h3 {
+  margin-top: 15px;
+}
+.main-content .account-summary .btn-success {
+  padding: 18px;
+}
+.main-content .account-summary .list-group {
+  margin-bottom: 0;
+  padding-bottom: 15px;
+}
+.main-content .account-summary .list-group .list-group-item {
+  border: 0;
+  padding-left: 0;
+}
+.main-content .account-summary .list-group .list-group-item.last {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.main-content .account-summary .pds-already-connected {
+  padding-bottom: 15px;
+}
+.main-content .account-summary .btn {
+  width: 100%;
+  margin-bottom: 0;
+  text-align: left;
+  position: relative;
+  white-space: normal;
+}
+.main-content .account-summary .btn.mydex-login-submit {
+  width: 65%;
+  min-width: 200px;
+}
+.main-content .account-summary .btn.mydex-link {
+  background: url('../img/mydex_logo.png') no-repeat scroll 18px center transparent;
+  padding-left: 145px;
+  margin-top: 15px;
+}
+.main-content .account-summary .btn.mydex-link img {
+  margin-right: 15px;
+}
+.main-content .account-summary .btn.btn-primary {
+  background-color: #7954a1;
+  border: 0;
+}
+.main-content .account-summary .btn.btn-primary img {
+  width: 145px;
+}
+.main-content .account-summary small {
+  font-size: 13px;
+  color: #7954a1;
+  display: inline-block;
+  margin: 10px 0;
+}
+.login-wrapper {
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+.login-wrapper:before,
+.login-wrapper:after {
+  content: " ";
+  display: table;
+}
+.login-wrapper:after {
+  clear: both;
+}
+.mydex-login-submit {
+  width: 50%;
+}
+.flow-steps {
+  text-align: center;
+}
+.flow-steps .step-label {
+  color: #c0c2c2;
+  font-size: 14px;
+  font-weight: 900;
+  margin-top: 10px;
+}
+.flow-steps .active .step-label {
+  color: #104163;
+}
+.flow-steps .active .line {
+  background-color: #104163;
+}
+.flow-steps .active .circle {
+  background-color: #104163;
+}
+.flow-steps .line {
+  width: 98%;
+  height: 10px;
+  background-color: #c0c2c2;
+  margin: 30px auto 0 auto;
+}
+.flow-steps .circle {
+  color: #fff;
+  margin: -23px auto 0 auto;
+  height: 35px;
+  width: 35px;
+  border-radius: 50px;
+  background-color: #c0c2c2;
+}
+.flow-steps .circle .step-number {
+  line-height: 34px;
+  font-size: 12px;
+  font-weight: 900;
+}
+.flow-steps .progress-flow li:first-child .line {
+  margin: 30px auto 0 0;
+}
+.flow-steps .progress-flow li:last-child .line {
+  margin: 30px 0 0 auto;
+}
+.flow-steps .nav-pills > li + li {
+  margin: 0;
+}
+.error {
+  color: red;
+  font-weight: normal;
+}
+input.error {
+  border: 1px solid red;
+}
+.terms .checkbox .control-label label.error {
+  float: right;
+}
+#permissionsInfo h4 {
+  margin: 25px 0;
+}
+.permission-accordions {
+  margin-bottom: 15px;
+}
+.permission-accordions .permissions-table .table-head-field-name {
+  width: 80%;
+}
+.permission-accordions .permissions-table .table-head-permission {
+  width: 20%;
+}
+.permission-accordions .permissions-table td {
+  font-size: 14px;
+}
+.permission-accordions .ui-accordion .ui-accordion-header {
+  text-transform: uppercase;
+  background: #104163;
+  margin-bottom: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-weight: 400;
+  border: 0;
+  padding: 20px;
+}
+.permission-accordions .ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+  left: auto;
+  right: 20px;
+}
+.permission-accordions .form-group .ui-accordion-content {
+  background: none;
+  height: auto !important;
+}
+.permission-accordions .form-group .ui-accordion-content .form-wrapper {
+  margin-bottom: 10px;
+}
+.permission-accordions .form-group .ui-accordion-content legend {
+  border: 0;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.permission-accordions .ui-widget {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.permission-accordions .ui-widget-content {
+  border: 1px solid #faf7eb;
+}
+.simulated-connection .main-content.container .list-group {
+  margin-bottom: 15px;
+}
+.simulated-connection .find-out-more-about-mydex {
+  border-top: 1px solid #cccccc;
+  margin-top: 15px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .main-content.container .account-summary .btn.mydex-link {
+    position: relative;
+    text-indent: -1000%;
+  }
+  .main-content.container .account-summary .btn.mydex-link i {
+    text-indent: 0;
+  }
+  .main-content.container .account-summary .btn.mydex-link img {
+    float: left;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .btn {
+    width: 100%;
+  }
+  .main-content.container .btn.btn-success.btn-lg i {
+    font-size: 17px;
+  }
+  .navbar-default .top.container .navbar-nav a.active {
+    width: 100%;
+    border-radius: 0;
+  }
+  .navbar-default .top.container .navbar-form .form-control {
+    height: auto;
+  }
+  .navbar-default .top.container .btn {
+    display: none;
+  }
+  .top.container .navbar-nav {
+    margin: 0;
+  }
+  .top.container .navbar-collapse {
+    padding: 0;
+  }
+  .top.container .navbar-form .form-group {
+    margin: 0;
+  }
+  .top.container .navbar-form {
+    margin: 0;
+  }
+  .flow-steps .line {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .flow-steps .progress-flow li:first-child .line {
+    margin: 30px 0 0 0;
+  }
+  .flow-steps .progress-flow li:last-child .line {
+    margin: 30px 0 0 0;
+  }
+}
+.form-alert-messages {
+  border: 1px solid red;
+  border-radius: 4px;
+  color: red;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.form-alert-messages h4 {
+  font-weight: bold;
+}
+.form-alert-messages ul li {
+  color: red;
+}
+span.ajax-progress {
+  background: url('../img/ajax-loader.gif') no-repeat scroll center center transparent;
+  display: block;
+  height: 80px;
+  width: 80px;
+}
